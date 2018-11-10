@@ -12,6 +12,7 @@
     <!--子模块工厂配置-->
     <modules>
         <module>eurekaServer</module>
+        <module>eurekaClient</module>
     </modules>
 
     <!--Spring Boot配置-->
