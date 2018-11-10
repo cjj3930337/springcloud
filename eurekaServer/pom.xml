@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+
+	<groupId>com.jfware.eurekaServer</groupId>
+	<artifactId>eureka-server</artifactId>
+	<version>0.0.1</version>
+	<packaging>jar</packaging>
+
+	<name>eurekaServer</name>
+	<description>eurekaServer project for Spring Cloud</description>
+
+	<!--父工程的依赖-->
+	<parent>
+		<groupId>com.jfware</groupId>
+		<artifactId>springcloud</artifactId>
+		<version>0.0.1</version>
+		<relativePath/> <!-- lookup parent from repository -->
+	</parent>
+
+	<properties>
+		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
+		<java.version>1.8</java.version>
+	</properties>
+
+	<!--子模块的个性化依赖-->
+	<dependencies>
+
+	</dependencies>
+
+</project>
